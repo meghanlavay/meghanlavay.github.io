@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="description" content="Browse faetured properties listed with SDR Properties"/>
+    <meta name ="author" content="Meghan / Jermaine"/>
+    <title> CSS Style Guide </title>
+    <script src="/js/html5shiv.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="../css/main.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style>
+       
+    </style>
+</head>
+<body>
+   <main>
+   <section id="mainHeader">
+        <header class="menu">
+            <a href="../index.html"><img src="../images/sdrLogo.svg" alt="SDR Logo" class="logo"></a>
+            <input type="checkbox" id="checkbox">
+
+<!-- Buttons -->
+<!-- Navigation -->
+            <nav>
+                <ul class="dropMenu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li>
+                        <input type="checkbox" id="dropDown" role="button">
+                        <label for="dropDown" class="drop"><span class="fas fa-chevron-down"></span>Services</label>
+                            <ul class="subMenu">
+                                <li><a href="../pages/residential.html">Residential</a></li>
+                                <li><a href="../pages/commercial.html">Commercial</a></li>
+                                <li><a href="../pages/propertyManagement.html">Property Management</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="../pages/listings.html" class="drop">Listings</a></li>
+                    <li><a href="../pages/blog.html">Blog</a></li>
+                    <li><a href="../pages/faq.html">FAQ</a></li>
+                    <li><a href="../pages/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox">
+            <i class="fas fa-bars menuIcon"></i>
+            </label>
+        </header>
+        <div class="hero"></div>
+        <h1 class="heads">CSS Style Guide</h1>
+        <p>These guidelines provide everything you need to create professional communicationmaterials that will build the SDR Properties brand. </p> 
+    </section>
+
+<!-- Main Content -->
+       <section class="styleContainer">
+           <div class="colorHeading">
+               <h1 class="heads">Colors</h1>
+                <p>When denoting color using hexadecimal notation, use either capital or lowercase letters. Both three-digit and six-digit hexadecimal notation are acceptable; if it’s possible to specify the desired color using three-digit hexadecimal notation, do so as you’ll save the end-user a few bytes of download time.</p>
+               <ul class="colorMenu">
+                   <li><span class=" darkB fas fa-square-full"></span><br>Dark Blue #3c5062</li>
+                   <li><span class="lightB fas fa-square-full"></span><br>Light Blue #6a7d93</li>
+                   <li><span class="grayC fas fa-square-full"></span><br>Gray #dadfdd</li>
+                   <li><span class="whiteC fas fa-square-full"></span><br>White #fff</li>
+               </ul>
+           </div>
+           <div class="typoHeading">
+                  <h1 class="heads typoGraph">Typography</h1>
+              <div class="typeFace">
+                   <h2>Typeface</h2>
+                   <p>Bebas Neue</p>
+                   <p>Open Sans</p>
+              </div>
+               <div class="weight">
+                   <h2>Weight</h2>
+                   <p>"Regular","400", "600", "700"</p>
+               </div>
+               <div class="headings">
+                   <h2 id="heading2">Headings</h2>
+                   <h1 class="head1">Main Headline<span class="fas fa-h1"> </span></h1>
+                   <small>1.75rem Bebas Neue</small>
+                   <h2 class="head2">Heading Two<span class="fas fa-h2"> </span></h2>
+                    <small>1.4rem Bebas Neue</small>
+                   <h3 class="head3">Heading 3</h3>
+                    <small>700 1rem Open Sans</small>
+                   <p class="head4">Heading 4</p>
+                    <small>1.4rem Bebas Neue</small>
+                   <p class="bodyText">General Body Text</p>
+               </div>
+           </div>
+            <div class="icons">
+               <h1 class="heads">Icons</h1>
+               <p>When creating drop-down lists use the font-awesome's chevron-down and fa-bars when creating navigation for mobile screens.  </p>
+               <div class="myIcons">
+                <span class="fas fa-chevron-down"></span>
+               <i class="fas fa-bars"></i>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+               </div>
+           </div>
+           <div class="bts">
+               <h1 class="heads bHead">Buttons</h1>
+              <div class="butns">
+                    <div class="btns">Button</div>
+                   <div class="abtns">Active</div>
+               </div>
+           </div>
+           <forms>
+               <h1 class="heads firstH">Form Elements</h1>
+
+               <div class="formE">
+                    <h2 class="secondH">Guide To Create Forms</h2>
+                   
+                    <!---- 4 Text Boxes ---->
+                    
+                    <div class="userInput">
+                        <input type="text" placeholder="placeholder" class="spacForm"><br>
+                        <input type="text" placeholder="placeholder" class="spacForm">
+                    </div>
+                    
+                    <!-- Check Boxes -->
+                               
+                    <div class="check">
+                        <label for="residential"><input type="checkbox" id="residential" name="residential"><span></span></label>
+                        <label for="commerical"><input type="checkbox" id="commerical" name="commercial"><span></span></label>
+                        <label for="management"><input type="checkbox" id="management" name="management"><span></span></label>
+                    </div>
+                     
+                    <!-- Radio Buttons  -->
+                          
+                     <div class="radioWrap">
+                        <label for="prefEmail"><input type="radio" name="preferred" id="prefEmail"><span></span></label>
+                        <label for="prefTel"><input type="radio" name="preferred" id="prefTel"><span></span></label>  
+                    </div>
+                               
+                    <!-- Multi-line Text Area -->
+                               
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                               
+                    <!-- Submit Button  -->
+                        <input type="submit" id="submit" class="button">
+                </div>
+            </forms>
+
+            <div class="images">
+                   <h1 class="heads">Images</h1>
+                   <p>Images are strongly encourage to be responsive. </p>
+                   <img src="../images/styleImage.jpg" alt="img code">
+            </div>
+
+           <div class="mediaQueries">
+               <h1 class="heads mediaH">Media Queries</h1>
+               <p class="mediaPa">Media queries allow us to gracefully degrade the DOM for different screen sizes. If you are adding any, be sure to test above and below the break-point you are targeting.</p>
+               <code class="media1">@media screen and (min-width: 650px) selector {
+                    property: value; /* Comment about this property-value pair. */    
+               }</code>
+               <code class="media2">@media screen and (min-width: 850px) selector {
+                    property: value; /* Comment about this property-value pair. */    
+               }</code>
+           </div>
+           <div class="comments">
+               <h1 class="heads commentH">Comments</h1>
+               <p class="commentPara">Comments are strongly encouraged.Comments that refer to selector blocks should be on a separate line immediately before the block to which they refer. </p>
+               <pre class="commentP">/* Comment about this selector block. /* 
+                selector {
+            property: value; /* Comment about this property-value pair. */  
+                    }
+                </pre>
+           </div>
+       </section>
+    <footer class="footerWrapper">
+        <div class="footerNav">
+            <h4><a href="index.html">Home</a> | <a href="pages/about.html">About</a> | <a href="pages/listings.html">Listings</a> | <a href="pages/contact.html">Contact</a></h4>
+        </div>
+        <div class="copyright">
+            <h4>&copy; SDR Properties 2021</h4>
+        </div>
+        <div class="office">
+            <h4>Office</h4>
+            <p>3741 De Garmo Lane</p>
+            <p>Coconut Grove, FL</p>
+        </div>
+        <div class="phone">
+            <p>306-543-3688</p>
+            <p><a href="mailto:info@sdrproperties.com">info@sdrproperties.com</a></p>
+        </div>
+        <div class="social">
+           <h4>Stay Connected</h4>
+            <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="http://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+        </div>
+    </footer>
+        
+    </main> 
+</body>
+</html>
